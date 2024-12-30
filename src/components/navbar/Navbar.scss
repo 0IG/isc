@@ -1,0 +1,18 @@
+.Navbar{
+    flex-direction: row;
+    
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    &__listItem{
+        list-style: none;
+        font-family: 'JetBrains mono'
+    }
+    
+    &__icon{
+        width: 80px;
+    }
+}
