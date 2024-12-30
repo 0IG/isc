@@ -9,7 +9,12 @@
     
     &__listItem{
         list-style: none;
-        font-family: 'JetBrains mono'
+        font-family: 'JetBrains mono';
+        
+        a {
+            color: black;
+            text-decoration: none;
+        }
     }
     
     &__icon{
