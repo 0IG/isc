@@ -1,0 +1,10 @@
+.PNF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+
+    &__heading{
+        font-family: 'JetBrains mono';
+    }
+}
