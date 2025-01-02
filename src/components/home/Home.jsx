@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <div className='home'>
         <section className='home__introduction'>
-            <h3 className='home__introduction__name'>ISAAC GONZALEZ</h3>
+            <h3 className='home__introduction__title'>ISAAC GONZALEZ</h3>
             <h1 className='home__introduction__about'>
                 Computer Enthusiast. Brazilian Jiu Jitsu Practitioner. Technician @ BlackRock
-                for AV-Services
+                for AV-Services.
             </h1>
             <button 
               className='home__introduction__nav-projects-text'
@@ -22,18 +22,25 @@ export default function Home() {
             >
               Check out what I'm up to.
             </button>
+            <div className='home__introduction__imgContainer'>
+            <img className='home__introduction__imgContainer__img'></img>
+            <img className='home__introduction__imgContainer__img'></img>
+            <img className='home__introduction__imgContainer__img'></img>
+            </div>
         </section>
         <section className='home__projects' id="projects">
-            PROJECTS
-        </section>
-        <section className='home__skills'></section>
-        <section className='home__contact'>
-            <h2>Contact</h2>
-            <h4 className='home__contact__text'>
-                I'm always looking to connect and grow not just my network but friends!
-                Feel free to use the links below to reach out!
-            </h4>
-            <h3>Linkedin</h3>
+            <h2 className='home__projects__title'>PROJECTS</h2>
+            <div className='home__projects__carousel'>
+              <div className='home__projects__carousel__item'>
+                <img className="home__projects__carousel__item__image" src='https://static.wikitide.net/greatcharacterswiki/4/4a/Snakesmash.png'></img>
+              </div>
+              <div className='home__projects__carousel__item'>
+              <img className="home__projects__carousel__item__image" src='https://static.wikitide.net/greatcharacterswiki/4/4a/Snakesmash.png'></img>
+              </div>
+              <div className='home__projects__carousel__item'>
+              <img className="home__projects__carousel__item__image" src='https://static.wikitide.net/greatcharacterswiki/4/4a/Snakesmash.png'></img>
+              </div>
+            </div>
         </section>
     </div>
   )

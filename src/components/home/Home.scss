@@ -4,7 +4,6 @@
 
     &__introduction{
         font-family:'Courier New', Courier, monospace;
-        border: 1px solid black;
         width: 66.6%;
         
         &__name{
@@ -15,12 +14,34 @@
             font-size: 70px;
             line-height: 1;
         }
+
+        &__nav-projects-text{
+            background: none;
+            border: none;
+            font-size: medium;
+            font-family:'Courier New', Courier, monospace;
+        }
     }
-    &__contact{
-        border: 1px solid black;
+    &__projects{
         display: flex;
         flex-direction: column;
         font-family: 'JetBrains Mono';
+
+        &__carousel{
+            border: 1px solid black;
+            display: inline-flex;
+            overflow-x: auto;
+            flex-wrap: nowrap;
+
+            &__item{
+                border: 1px solid red;
+
+                &__image{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
     }
 }
 

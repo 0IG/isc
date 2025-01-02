@@ -5,7 +5,7 @@ import Home from './components/home/Home'
 import PageNotFound from './components/page-not-found/PageNotFound'
 export default function App() {
   return (
-    <div>
+    <div className='App'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home />}></Route>
