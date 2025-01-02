@@ -1,8 +1,23 @@
 .home{
     display: flex;
+    flex-direction: column;
 
+    &__introduction{
+        font-family:'Courier New', Courier, monospace;
+        border: 1px solid black;
+        width: 66.6%;
+        
+        &__name{
+            font-weight: 200;
+        }
 
+        &__about{
+            font-size: 70px;
+            line-height: 1;
+        }
+    }
     &__contact{
+        border: 1px solid black;
         display: flex;
         flex-direction: column;
         font-family: 'JetBrains Mono';
