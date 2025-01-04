@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.scss'
+import { redirect } from 'react-router-dom'
 
 export default function Navbar() {
 
@@ -16,7 +17,9 @@ export default function Navbar() {
               <a href='https://www.linkedin.com/in/gonisc/' target='_blank'>LINKEDIN</a>
             </li>
             <li className='Navbar__listItem'>
-                <img className="Navbar__icon" src='https://i.imgur.com/xRNzGBT.png'></img>
+              <a href='/'>
+              <img className="Navbar__icon" src='https://i.imgur.com/xRNzGBT.png'></img>
+              </a>   
             </li>
             <li className='Navbar__listItem'>
               <a href='https://github.com/0IG' target='_blank'>GITHUB</a>
